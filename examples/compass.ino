@@ -1,0 +1,25 @@
+#include <QMC5883L.h>
+#include <Serial.h>
+
+QMC5883L compass;
+
+void init()
+{
+	compass.init();
+	compass.setSamplingRate(50);
+
+	Serial.println("QMC5883L Compass Demo");
+	Serial.println("Turn compass in all directions to calibrate....");
+}
+
+void loop()
+{
+	while(1) {
+		int heading = compass.readHeading();
+		if(heading==0) {
+			/* Still calibrating, so measure but don't print */
+		} else {
+			Serial.println(heading);
+		}
+	}
+}

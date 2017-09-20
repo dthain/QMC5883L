@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map QMC5883L
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+QMC5883L	KEYWORD1	QMC5883L
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+reset	KEYWORD2
+ready	KEYWORD2
+reconfig	KEYWORD2
+readHeading	KEYWORD2
+readRaw	KEYWORD2
+resetCalibration	KEYWORD2
+setSamplingRate	KEYWORD2
+setRange	KEYWORD2
+setOversampling	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
