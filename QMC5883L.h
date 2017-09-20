@@ -1,3 +1,5 @@
+#ifndef QMC5883L_H
+#define QMC5883L_H
 
 class QMC5883L {
 public:
@@ -24,3 +26,5 @@ private:
   uint8_t range;
   uint8_t oversampling;
 };
+
+#endif
