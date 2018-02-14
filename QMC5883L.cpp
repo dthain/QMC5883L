@@ -50,6 +50,11 @@
 #define QMC5883L_CONFIG_STANDBY 0b00000000
 #define QMC5883L_CONFIG_CONT    0b00000001
 
+/* Apparently M_PI isn't available in all environments. */
+#ifndef M_PI
+#define M_PI 3.14159265358979323846264338327950288
+#endif
+
 static void write_register( int addr, int reg, int value )
 {
   Wire.beginTransmission(addr);
