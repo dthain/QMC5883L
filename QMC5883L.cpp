@@ -1,4 +1,5 @@
 #include <Wire.h>
+#include <math.h>
 #include "QMC5883L.h"
 
 /*
