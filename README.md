@@ -15,7 +15,7 @@ probably have a QMC5883L chip!  Try this library and see
 if it works for you.
 
 To install this library into your Arduino environment, download the latest release file to your desktop:
-https://github.com/dthain/QMC5883L/archive/v1.0.2.zip
+https://github.com/dthain/QMC5883L/archive/v1.0.3.zip
 
 In the Arduino app, select the menu Sketch->Include Library->Add Zip Library and then select the downloaded file.
 
