@@ -203,5 +203,5 @@ int QMC5883L::readHeading()
   int heading = 180.0*atan2(fy,fx)/M_PI;
   if(heading<=0) heading += 360;
   
-  return 1;
+  return heading;
 }
