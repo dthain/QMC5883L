@@ -1,9 +1,8 @@
 #include <QMC5883L.h>
-#include <Serial.h>
 
 QMC5883L compass;
 
-void init()
+void setup()
 {
 	compass.init();
 	compass.setSamplingRate(50);
