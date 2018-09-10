@@ -145,6 +145,8 @@ void QMC5883L::init() {
   range = QMC5883L_CONFIG_2GAUSS;
   rate = QMC5883L_CONFIG_50HZ;
   mode = QMC5883L_CONFIG_CONT;
+  /* Initialize Wire only if not already done. */
+  if(TWCR==0) Wire.begin();
   reset();
 }
 
