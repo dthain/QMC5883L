@@ -16,12 +16,10 @@ void setup()
 
 void loop()
 {
-	while(1) {
-		int heading = compass.readHeading();
-		if(heading==0) {
-			/* Still calibrating, so measure but don't print */
-		} else {
-			Serial.println(heading);
-		}
+	int heading = compass.readHeading();
+	if(heading==0) {
+		/* Still calibrating, so measure but don't print */
+	} else {
+		Serial.println(heading);
 	}
 }

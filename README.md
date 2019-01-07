@@ -51,9 +51,7 @@ Once enough data is collected, `readHeading()` will begin to return
 integer heading values between 1 and 360 degrees.
 
 ```
-while(1) {
-	int heading = compass.readHeading();
-}
+int heading = compass.readHeading();
 ```
 
 Note that readings are only periodically available, depending
