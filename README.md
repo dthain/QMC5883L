@@ -26,10 +26,12 @@ Then within your sketch, declare a compass instance at global scope:
 QMC5883L compass;
 ```
 
+
 Initialize the compass, which will reset the hardware and
 begin continuous measurement mode:
 
 ```
+Wire.begin();
 compass.init();
 ```
 

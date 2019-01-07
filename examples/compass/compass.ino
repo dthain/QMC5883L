@@ -4,6 +4,8 @@ QMC5883L compass;
 
 void setup()
 {
+	Wire.begin();
+
 	compass.init();
 	compass.setSamplingRate(50);
 
