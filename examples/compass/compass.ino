@@ -1,4 +1,5 @@
 #include <QMC5883L.h>
+#include <Wire.h>
 
 QMC5883L compass;
 

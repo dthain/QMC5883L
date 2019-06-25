@@ -22,7 +22,9 @@ In the Arduino app, select the menu Sketch->Include Library->Add Zip Library and
 Then within your sketch, declare a compass instance at global scope:
 
 ```
-#include "QMC5883L.h"
+#include <QMC5883L.h>
+#include <Wire.h>
+
 QMC5883L compass;
 ```
 
