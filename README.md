@@ -80,6 +80,4 @@ Allowable values for `rate` are 10, 50, 100, or 200 Hertz.
 `range` may be 2 or 8 (Gauss).
 `ovl` may be 512, 256, 128, or 64.
 
-Datasheet on which the code is based:
-http://wiki.epalsite.com/images/7/72/QMC5883L-Datasheet-1.0.pdf
 
